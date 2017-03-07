@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Event Management App</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<script src="js/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,800,400,600' rel='stylesheet' type='text/css'>
+		</head>
+	<body>
+		<div class="header">
+		<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" title="Just Books" /></a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active"><a href="index.html">Home<span> </span></a></li>
+						<li><a href="404.html">News</a></li>
+						<li><a href="404.html">Portfolio</a></li>
+						<li><a href="addnew.html">Add New Event</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+				<!-- top-nav -->
+				<!-- script-for-menu -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(200);
+						});
+					});
+				</script>
+			</div>
+		</div>
+		<div class="banner hidden-md hidden-xs">
+					    <div  id="top" class="callbacks_container">
+					          <img class="img-responsive" src="images/slide1.jpg" alt="">
+					          <div class="slider-caption">
+					          	<div class="slider-caption-inner">
+						          	 <h1>Just Books Event Management</h1>
+						         	 <p>This is the current listing of Book Conventions , Author Conferences and Writing Workshops.  If you have any to add, please go to Add Event Below. I'll try to keep this as up to date as possible.  I've tried to get a cross section of "well known" conventions and workshops for different areas of the country.  In addition, I added some for other locales.  Some events are for readers and authors and some are for authors only. Check them out and see which ones might be for you. 
+(I will be adding more and more so check back often)</p>
+						         	 <a class="caption-btn" href="addnew.html">Add New Event</a>
+					         	 </div>
+					          </div>
+					    </div>
+					    <div class="clearfix"> </div>
+		<div class="categories">
+			<div class="container">
+				<div class="categories-right">
+					<form>
+						<input type="text" placeholder="Search here" required>
+						<input type="submit" value="search" />
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+        </div>
+		<div class="content">
+            <div class="container">
+			     <div class="row">
+                     <div class="col-md-4 col-sm-12">
+                         <div class="well well-lg">
+                         <img src="images/post1.jpg" /><br><br>
+                         <p>Name : Wizard World Comic Con</p>
+                         <p>Date : Jan 8–10</p>
+                         <p>Time : 9AM - 6PM</p>
+                         <p>Address : New Orleans</p>
+                         <p>City  : New Orleans, LA, USA</p>
+                         <p>PIN : 70112</p><br>
+                     </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12">
+                         <div class="well well-lg">
+                         <img src="images/post2.jpg" /><br><br>
+                         <p>Name : ALA Midwinter Meeting</p>
+                         <p>Date : Jan 8–12</p>
+                         <p>Time : 9AM - 6PM</p>
+                         <p>Address : Boston</p>
+                         <p>City  : Boston, MA, USA</p>
+                         <p>PIN : 02101</p><br>       
+                     </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12">
+                         <div class="well well-lg">
+                         <img src="images/post3.jpg" /><br><br>
+                         <p>Name : New Delhi World Book Fair</p>
+                         <p>Date : Jan 9-17</p>
+                         <p>Time : 9AM - 6PM</p>  
+                         <p>Address : New Delhi</p>
+                         <p>City  : New Delhi, Delhi, India</p>
+                         <p>PIN : 110020</p><br>
+                     </div>
+                     </div>
+                    </div>     
+				<div class="clearfix"> </div>
+                </div>
+                <a class="caption-btn col-md-8" href="addnew.html" style="margin-left: 500px;">Add New Event</a>
+				<div class="pagenate" style="margin-top: 50px;">
+					<ul>
+						<li class="page-active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li class="next"><a href="#">Next</a></li>
+					</ul>
+				</div>
+            </div>
+			<div class="clearfix"> </div>
+		<div class="footer">
+            <div class="clearfix"></div>
+		<div class="copy-right">
+			<div class="container">
+				<p>Design by <a href="http://acadgild.comk">Ajay Kumar S M</a></p>
+			</div>
+		</div>
+    </div>
+	</body>
+</html>
+
